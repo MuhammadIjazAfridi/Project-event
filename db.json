@@ -1,0 +1,67 @@
+{
+  "posts": [
+    {
+      "username": "aas",
+      "fname": "ali",
+      "lname": "amad",
+      "society": "as",
+      "password": "asd",
+      "id": 6
+    },
+    {
+      "username": "aas",
+      "fname": "ali",
+      "lname": "amad",
+      "society": "as",
+      "password": "asd",
+      "id": 7
+    },
+    {
+      "username": "ali2",
+      "fname": "ali2",
+      "lname": "ali2",
+      "society": "ali2",
+      "password": "asd",
+      "id": 9
+    },
+    {
+      "username": "xyz",
+      "fname": "asd",
+      "lname": "xyz",
+      "society": "asd",
+      "password": "123",
+      "id": 10
+    },
+    {
+      "username": "asd",
+      "fname": "asd",
+      "lname": "asd",
+      "society": "asd",
+      "password": "asd",
+      "id": 11
+    },
+    {
+      "username": "ahmadabasdasd",
+      "fname": "ali2",
+      "lname": "ali2",
+      "society": "ali2",
+      "password": "asd",
+      "id": {
+        "username": "aas",
+        "fname": "ali",
+        "lname": "amad",
+        "society": "as",
+        "password": "asd",
+        "id": 7
+      }
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  },
+  "hope": [
+
+    
+  ]
+}

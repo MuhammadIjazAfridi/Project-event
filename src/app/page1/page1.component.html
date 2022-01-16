@@ -1,0 +1,35 @@
+<nav class="navber navbar-light bg-primary">
+    <div style="background-color: darkorange;" class="container-fluid">
+        <h1>Admin panel</h1>
+        <div class="flex">
+            <button style="margin: 0% 1500px;" type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                Add
+              </button>
+        </div>
+    </div>
+</nav>
+<table class="table" style="color: white;">
+    <thead>
+        <tr>
+            <th scope="col">Username</th>
+            <th scope="col">first name</th>
+            <th scope="col">last name</th>
+            <th scope="col">society</th>
+            <th scope="col">password</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let row of edata">
+            <td>{{row.username}}</td>
+            <td>{{row.fname}}</td>
+            <td>{{row.lname}}</td>
+            <td>{{row.society}}</td>
+            <td>{{row.password}}</td>
+            <td>
+                <button  (click)="onedit(row)" data-bs-toggle="modal" data-bs-target="#exampleModal2" class="btn btn-info">Edit</button>
+                <button (click)="deluser(row.id)" class="btn btn-danger mx-3">Delete</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
